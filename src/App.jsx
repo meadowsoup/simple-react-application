@@ -2,8 +2,8 @@ function Header() {
   return (<h1>Simple React Application</h1>);
 }
 
-function Content() {
-  return (<p>This is my first React Application!</p>);
+function Content(props) {
+  return (<p style={{ color: props.color}}>{props.text}</p>);
 }
 
 function Footer() {
@@ -14,7 +14,9 @@ function App() {
   return (
     <>
       <Header />
-      <Content />
+      <Content color="azure" text="First Application 💪🏽" />
+      <Content color="whitesmoke" text="... 😈"/>
+      <Content color="beige" text="lets go!"/>
       <Footer />
     </>
   );
