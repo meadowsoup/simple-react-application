@@ -1,17 +1,7 @@
-import App from "../App"
+// import App from "../App"
 
 function Header() {
-     return(
-          <header>
-               <div>
-                    <h1>Merchant</h1>
-               </div>
-               <nav>
-                    <a href="#">Home</a>
-                    <a href="#">Products</a>
-               </nav>
-          </header>
-     );
+     return (<h1 style={{backgroundColor: "black", color: "white", padding: "10px"}}>Simple React Application</h1>);
 }
 
 export default Header;
