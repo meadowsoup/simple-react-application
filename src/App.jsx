@@ -1,13 +1,13 @@
 function Header() {
-  return (<h1>Simple React Application</h1>);
+  return (<h1 style={{backgroundColor: "black", color: "white", padding: "10px"}}>Simple React Application</h1>);
 }
 
 function Content(props) {
-  return (<p style={{ color: props.color}}>{props.text}</p>);
+  return (<p style={{ color: props.color, fontSize: "18px", fontWeight: "bold"}}>{props.text}</p>);
 }
 
 function Footer() {
-  return (<h1>Created by Me, ofc.</h1>);
+  return (<h1 style={{backgroundColor: "black", color: "white", padding: "10px"}}>Created by Me, ofc.</h1>);
 }
 
 function App() {
